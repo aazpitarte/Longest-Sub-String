@@ -42,12 +42,9 @@ int lengthOfLongestSubstring(std::string input) {
 	return longest;
 }
 
-
-
 //=========================================================================
 // Program Test Cases
 //=========================================================================
-
 
 TEST_CASE("No input") {
 	
@@ -80,15 +77,3 @@ TEST_CASE("All repeating characters") {
 	
 }
 
-
-
-/*
-int main () {
-	Solution call;
-	
-	std::cout << call.lengthOfLongestSubstring("abccbad") << std::endl;
-	std::cout << call.lengthOfLongestSubstring("a") << std::endl;
-
-	return 0;
-}
-*/
