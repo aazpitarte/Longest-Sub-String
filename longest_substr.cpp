@@ -6,7 +6,7 @@
 int lengthOfLongestSubstring(std::string input) {
 		
 	// this array will map ascii value to the existence of a character
-	bool char_map[300] = {0};
+	bool char_map[256] = {0};
 	
 	int longest = 0;
 	int cur_len = 0;
